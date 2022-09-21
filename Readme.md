@@ -1,7 +1,7 @@
 # Личный проект «Кекстаграм»
 
 * Студент: [Максим Блинков](https://up.htmlacademy.ru/univer-js1/1/user/2225759).
-* Наставник: `Неизвестно`.
+* Наставник: [Нюкало Павел Юрьевич](https://htmlacademy.ru/profile/nyukalopavel).
 
 ---
 
