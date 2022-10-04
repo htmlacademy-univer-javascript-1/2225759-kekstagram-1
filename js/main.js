@@ -8,3 +8,6 @@ function lenghtOfComment (string = '', maxLenght = 140) {
     }
     return false;
 }
+getRandomNumber();
+lenghtOfComment();
+
