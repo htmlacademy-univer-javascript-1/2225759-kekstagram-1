@@ -4,9 +4,7 @@ function getRandomNumber (min, max){
 }
 function lenghtOfComment (string = '', maxLenght = 100) {
     if (string.length <= maxLenght){
-        return true
+        return true;
     }
-    return false
+    return false;
 }
-getRandomNumber();
-lenghtOfComment();
