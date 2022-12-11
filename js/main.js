@@ -1,13 +1,14 @@
-function getRandomNumber (min, max){
-  return Math.floor(Math.random() * (max - min)) + min;
-  // Взято с сайта (https://myrusakov.ru/js-random-numbers.html)
-}
-function lenghtOfComment (string = '', maxLenght = 140) {
-  if (string.length <= maxLenght){
-    return true;
-  }
-  return false;
-}
-getRandomNumber();
-lenghtOfComment();
+import {renderUserPhotos} from './pictures.js';
+import {initEffects} from './effects.js';
+import {closeUploadPopup} from './form.js';
+import {submitForm} from './form.js';
+import {getData} from './api.js';
+import {showFilteredPictures} from './filter.js';
 
+getData((pictures) => {
+  renderUserPhotos(pictures);
+  showFilteredPictures(pictures);
+});
+
+submitForm(closeUploadPopup);
+initEffects();
